@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { Dasboard } from "./pages/Dasboard";
+import "./App.css";
+import { createTheme, NextUIProvider } from "@nextui-org/react";
+import { ThemeProvider as NextThemesProvider } from "next-themes";
 
 function App() {
+  const lightTheme = createTheme({
+    type: "light",
+    theme: {
+      colors: {}, // optional
+    },
+  });
+
+  const darkTheme = createTheme({
+    type: "dark",
+    theme: {
+      colors: {}, // optional
+    },
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NextThemesProvider
+        defaultTheme="system"
+        attribute="class"
+        value={{
+          light: lightTheme.className,
+          dark: darkTheme.className,
+        }}
+      >
+        <NextUIProvider>
+          <Dasboard />
+        </NextUIProvider>
+      </NextThemesProvider>
     </div>
   );
 }

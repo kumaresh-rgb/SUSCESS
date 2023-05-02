@@ -1,0 +1,66 @@
+.Main{
+
+}
+.Top{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Bottom_Div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.Top_Div{
+    
+  display: grid;
+  /* grid-template-rows: 10%; */
+
+/* .nextui-c-eFfoBo {
+    gap:20px !important;
+}
+.inside_top{
+    display: flex;
+}
+.Top_Div>img{
+    
+}
+.Bottom_children{
+align-items: center;
+}
+
+.Bottom_Div{
+    
+} */ 

@@ -1,0 +1,74 @@
+.Body_Main_left{   
+   
+    align-items: center;
+
+}
+
+.Body_main_left_text{
+    
+    margin-top: 16px;
+    margin-left: 20px;
+}
+/* .Body_main_left_tabs{
+  
+    margin-left: 20px;
+} */
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    color: #5a5c5e;
+    
+}
+
+.css-13i9wap-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #5a5c5e !important;
+}
+
+.Main_Body{
+
+    display: grid;
+    grid-template-columns: 25% 70%;
+   
+    margin-top: 20px; 
+    gap: 15px;
+    margin-left: 20px;
+    align-items: center;
+    
+    
+}
+.card{
+    gap: 15px;
+}
+.Top{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.svg{
+    object-fit: cover;
+    display: flex;
+   
+}
+.Midlle{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.Bottom{
+display: flex;
+justify-content: space-around;
+
+}
+.number{
+    display: flex;
+}
+
+/* bottom */
+
+
+.op{
+margin: 5px;
+}
+.BOT{
+    gap: 2px;
+}

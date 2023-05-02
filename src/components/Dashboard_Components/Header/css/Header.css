@@ -1,0 +1,42 @@
+.Header_Main{
+   
+    display: flex; 
+    justify-content: space-between; 
+    position: sticky;
+    align-items: center;
+
+}
+
+.Header_Left{
+  display: flex;
+  margin-left: 10px;
+  cursor: pointer;
+  
+ 
+}
+
+.Header_center{
+    display: flex;
+    gap:4px;
+    align-items: center;
+    
+    
+  
+}
+
+.Header_right{
+    display: flex;    
+    align-items: center;
+    
+    
+
+}
+.Header_right_compo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+   
+    
+    
+}
